@@ -40,5 +40,57 @@ section {
 }
 
 div {
-    margin: 60px 20px;
+    margin: 50px 20px;
+}
+
+li {
+    margin: 10px 0;
+}
+
+.alignleft {
+    text-align: left;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    min-width: 200px;
+    width: 1460px;
+    height: 300px;
+    border-radius: 10px;
+    margin: 0;
+    padding: 0 20px;
+}
+
+.footer1 {
+    height: 75px;
+    margin: 0;
+}
+
+.footer2 {
+    width: 726px;
+    height: 105px;
+    margin: 0;
+    font-size: 25px;
+    display: inline;
+}
+
+.location {
+    font-size: 30px;
+    text-align: center;
+    padding: 19px 0;
+}
+
+footer a {
+    color: white;
+}
+
+.right {
+    float: right;
+    text-align: right;
+}
+
+.left {
+    float: left;
+    text-align: left;
 }
