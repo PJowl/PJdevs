@@ -51,15 +51,17 @@ li {
     text-align: left;
 }
 
-footer {
-    background-color: black;
-    color: white;
-    min-width: 200px;
-    width: 1460px;
-    height: 300px;
+.footer {
+    margin: 30px auto 0;
+    background: black;
+    max-width: 1500px;
+    height: 350px;
+    padding: 10px 10px;
     border-radius: 10px;
-    margin: 0;
-    padding: 0 20px;
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+    color: white;
+    font-size: 20px;
 }
 
 .footer1 {
@@ -68,11 +70,11 @@ footer {
 }
 
 .footer2 {
-    width: 726px;
-    height: 105px;
+    width: 49%;
+    height: 100px;
     margin: 0;
     font-size: 25px;
-    display: inline;
+    display: block;
 }
 
 .location {
@@ -81,7 +83,7 @@ footer {
     padding: 19px 0;
 }
 
-footer a {
+.footer a {
     color: white;
 }
 
@@ -93,4 +95,10 @@ footer a {
 .left {
     float: left;
     text-align: left;
+}
+
+@media screen and (max-width: 600px) {
+    section {
+        width: 300px;
+    }
 }
