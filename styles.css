@@ -25,14 +25,12 @@ section {
 .ID-pfp {
     width: 200px;
     height: 200px;
-    border-radius: 5px;
+    border-radius: 50%;
     transition: 0.5s;
 }
 
 .ID-pfp:hover {
-    animation-name: pfp-hover;
-    animation-duration: 0.5s;
-    animation-fill-mode: forwards;
+    border-radius: 2%;
 }
 
 .pfp-div {
@@ -43,10 +41,6 @@ div {
     margin: 50px 20px;
 }
 
-li {
-    margin: 10px 0;
-}
-
 .alignleft {
     text-align: left;
 }
@@ -54,9 +48,8 @@ li {
 .footer {
     margin: 30px auto 0;
     background: black;
-    max-width: 1500px;
     height: 350px;
-    padding: 10px 10px;
+    padding: 10px 15px;
     border-radius: 10px;
     text-align: center;
     text-shadow: 1px 1px 1px black;
@@ -85,6 +78,14 @@ li {
 
 .footer a {
     color: white;
+}
+
+.footer a:hover {
+    font-style: italic;
+}
+
+.footer a:active {
+    color: #5f9ea0;
 }
 
 .right {
